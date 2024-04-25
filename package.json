@@ -7,7 +7,7 @@
    "scripts": {
             "start": "pm2 start . --attach --name SMD",
             "stop": "pm2 stop SMD",
-            "heroku-postbuild": "git clone https://github.com/bizode14/BIZODE.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+            "heroku-postbuild": "git clone https://github.com/bizode14/BIZODE.git Suhail && mv Suhail/.git .git && rm -rf Suhail && npx puppeteer@latest install  --y",
             "fix-heroku-postbuild": "git clone https://github.com/bizode14/BIZODE.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm install && npx puppeteer@latest install",
             "postinstall": "npx puppeteer@latest install --y"
    },
