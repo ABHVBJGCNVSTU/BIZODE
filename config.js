@@ -56,7 +56,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923114397148,923xxxxxxxx";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
@@ -69,7 +69,7 @@ module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || ",",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.4",
   caption : process.env.CAPTION || "MIAN AMIR" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "AMIR"  ).toUpperCase(),
 
 
 
@@ -100,7 +100,7 @@ module.exports = {
 
 
 
-global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
+global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "b25334b585e9c365ca65767daae1c290";
 global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
 
 
